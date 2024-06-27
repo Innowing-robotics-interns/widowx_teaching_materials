@@ -34,7 +34,7 @@ def main():
     bot.arm.go_to_home_pose()
     bot.gripper.release()
 
-    bot.arm.set_ee_pose_components(x=0.15, z=0.1, roll=deg2rad(90), pitch=deg2rad(90), blocking=True)
+    bot.arm.set_ee_pose_components(x=0.15, z=0.1, roll=deg2rad(90), pitch=deg2rad(89), blocking=True)
     bot.gripper.grasp(3)
     
     bot.arm.set_ee_pose_components(x=0.2, y=0.3, z=0.1, yaw=deg2rad(0), blocking=True)

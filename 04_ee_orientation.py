@@ -34,8 +34,8 @@ def main():
 
     bot.arm.set_ee_pose_components(x=0.3, z=0.1, blocking=True)
 
-    bot.arm.set_ee_cartesian_trajectory(pitch=deg2rad(90))
-    bot.arm.set_ee_cartesian_trajectory(pitch=deg2rad(-90))
+    bot.arm.set_ee_cartesian_trajectory(pitch=deg2rad(89))
+    bot.arm.set_ee_cartesian_trajectory(pitch=deg2rad(-89))
 
     bot.arm.go_to_sleep_pose(moving_time=3)
     ##########################################################
